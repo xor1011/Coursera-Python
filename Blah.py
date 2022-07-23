@@ -10,7 +10,7 @@ class B:
 class C:
    pass
 
-class D(C, A, B):
+class D(C, B, A):
    pass
 
 d = D()
